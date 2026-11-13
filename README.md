@@ -10,7 +10,9 @@ O **Projeto Raio-X** nasceu da necessidade de automatizar processos de auditoria
 ---
 
 ## 📸 Demonstração Visual
-*(Adicione aqui capturas de tela, diagramas ou exemplos de saída gerada pela ferramenta)*
+<p align="center">
+  <img src="docs/acc.png" width="45%" alt="Resultado" />
+</p>
 
 
 ## 🛠️ Stack Tecnológica
@@ -34,34 +36,39 @@ O **Projeto Raio-X** nasceu da necessidade de automatizar processos de auditoria
 ## ⚙️ Como Executar o Projeto Localmente
 Siga os passos abaixo para clonar e testar a ferramenta na sua máquina:
 
-## *Clone o repositório:*
+1. **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/GuMouzin/ProjetoRaioX.git](https://github.com/GuMouzin/ProjetoRaioX.git)
+    cd ProjetoRaioX
+    ```
+2. **Crie e ative um ambiente virtual (caso seja Python):**
+    ```bash
+    python -m venv venv
+    # No Windows:
+    venv\Scripts\activate
+    # No Linux/Mac:
+    source venv/bin/activate
+    ```
 
-git clone [https://github.com/GuMouzin/ProjetoRaioX.git](https://github.com/GuMouzin/ProjetoRaioX.git)
-cd ProjetoRaioX
+3. **Instale as dependências:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## *Crie e ative um ambiente virtual (caso seja Python):*
-python -m venv venv
-# No Windows:
-venv\Scripts\activate
-# No Linux/Mac:
-source venv/bin/activate
-
-## *Instale as dependências:*
-
-pip install -r requirements.txt
-
-## *Execute a aplicação:*
-
-python projetoRaioX.py
+4. **Execute a aplicação:**
+    ```bash
+    python projetoRaioX.py
+    ```
 
 ## 📂 Estrutura do Projeto
-*Plaintext
+```text
 ├── treino/             # Imagens de Treino
 ├── teste/              # Imagens de Teste
 ├── producao/           # Imagens para Produção
 ├── docs/               # Documentação e capturas de tela
-├── projetoRaioX.py     # Código
+├── projetoRaioX.py     # Ponto de entrada (Entrypoint)
 ├── requirements.txt    # Dependências do projeto
-└── README.md           # Documentação principal*
+└── README.md           # Documentação principal
+```
 
-Desenvolvido por Gustavo Mouzin.
+*Desenvolvido por **Gustavo Mouzin**.*
