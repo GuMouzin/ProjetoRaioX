@@ -34,34 +34,34 @@ O **Projeto Raio-X** nasceu da necessidade de automatizar processos de auditoria
 ## ⚙️ Como Executar o Projeto Localmente
 Siga os passos abaixo para clonar e testar a ferramenta na sua máquina:
 
-*Clone o repositório:*
+## *Clone o repositório:*
 
 git clone [https://github.com/GuMouzin/ProjetoRaioX.git](https://github.com/GuMouzin/ProjetoRaioX.git)
 cd ProjetoRaioX
 
-*Crie e ative um ambiente virtual (caso seja Python):*
+## *Crie e ative um ambiente virtual (caso seja Python):*
 python -m venv venv
 # No Windows:
 venv\Scripts\activate
 # No Linux/Mac:
 source venv/bin/activate
 
-*Instale as dependências:*
+## *Instale as dependências:*
 
 pip install -r requirements.txt
 
-*Execute a aplicação:*
+## *Execute a aplicação:*
 
 python projetoRaioX.py
 
-📂 Estrutura do Projeto
-Plaintext
-├── treino/                # Imagens de Treino
-├── teste/               # Imagens de Teste
-├── producao/               # Imagens para Produção
+## 📂 Estrutura do Projeto
+*Plaintext
+├── treino/             # Imagens de Treino
+├── teste/              # Imagens de Teste
+├── producao/           # Imagens para Produção
 ├── docs/               # Documentação e capturas de tela
 ├── projetoRaioX.py     # Código
 ├── requirements.txt    # Dependências do projeto
-└── README.md           # Documentação principal
+└── README.md           # Documentação principal*
 
 Desenvolvido por Gustavo Mouzin.
